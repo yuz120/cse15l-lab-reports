@@ -4,7 +4,10 @@
 #
 ### *Part 1*
 ### Install Visual Studio Code
-* Go to website [Visual Studio Code](https://code.visualstudio.com/).
-* Download the app
-* ![image](Visual_Studio_Code.png)
+* Go to website [Visual Studio Code](https://code.visualstudio.com/)
+* Download the app and open it
+
+ ![image](Visual_Studio_Code.png)
+
+### *Part 2*
 
