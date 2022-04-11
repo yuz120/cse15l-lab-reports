@@ -1,6 +1,6 @@
 ## **Week 2 Lab Report**
-                    Yuyang Zhou
-                    April 10, 2022
+                            Yuyang Zhou
+                            April 10, 2022
 #
 ### *Part 1*
 ### Install Visual Studio Code
