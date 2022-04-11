@@ -19,6 +19,17 @@
 * Your account name should be $ ssh cs15lsp22zz@ieng6.ucsd.edu, with "zz" replaced by your own letters.
 * Open the terminal in Visual Studio Code. Type the command 
         $ ssh cs15lsp22zz@ieng6.ucsd.edu
+After that, the terminal should look like this:
 ![image](Remotely_Connect.png)
+* Now, the computer is successfully connected.
 
-
+### *Part 3*
+### Trying Some Command
+* Run some commands by yourself. Compare the output using commands with and without ssh.
+    * cd 
+    * cd ~
+    * ls -lat
+    * ls -a
+    * pwd
+    * cp
+!
