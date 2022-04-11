@@ -32,4 +32,9 @@ After that, the terminal should look like this:
     * ls -a
     * pwd
     * cp
-!
+Without ssp:
+![image](Try_Command.png)
+With ssp:
+![image](Try_Command2.png)
+There is the errors of no access to the files, because you need to type "$ssh" instead of "ssh".
+Let's try again.
