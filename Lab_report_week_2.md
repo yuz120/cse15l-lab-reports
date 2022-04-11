@@ -2,7 +2,7 @@
                             Yuyang Zhou
                             April 10, 2022
 
-#
+
 ### *Part 1*
 ### Install Visual Studio Code
 * Go to website [Visual Studio Code](https://code.visualstudio.com/)
