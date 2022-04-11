@@ -10,4 +10,7 @@
  ![image](Visual_Studio_Code.png)
 
 ### *Part 2*
-
+### Remotely Connecting
+* 
+* 
+*
