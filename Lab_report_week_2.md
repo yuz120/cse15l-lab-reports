@@ -21,7 +21,7 @@
         $ ssh cs15lsp22zz@ieng6.ucsd.edu
 After that, the terminal should look like this:
 ![image](Remotely_Connect.png)
-* Now, the computer is successfully connected.
+* Now, the computer(the client) is successfully connected to the server.
 
 ### *Part 3*
 ### Trying Some Command
@@ -32,9 +32,26 @@ After that, the terminal should look like this:
     * ls -a
     * pwd
     * cp
+    * ...
 Without ssp:
 ![image](Try_Command.png)
 With ssp:
 ![image](Try_Command2.png)
 There is the errors of no access to the files, because you need to type "$ssh" instead of "ssh".
 Let's try again.
+![image](SSH.png)
+This time the commands work.
+
+### *Part 4*
+### Moving Files with scp
+* Copy a file from your computer to a remote computer.
+* Using the command "scp"
+* Create a file called WhereAmI.java, and put contents as the picture shows:
+![image]()
+
+
+### *Part 5*
+### Setting an SSH Key
+
+### *Part 6*
+### Optimizing Remote Running
