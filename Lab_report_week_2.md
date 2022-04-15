@@ -27,13 +27,13 @@ After that, the terminal should look like this:
 ### *Part 3*
 ### Trying Some Command
 * Run some commands by yourself. Compare the output using commands with and without ssh.
-    * cd 
-    * cd ~
-    * ls -lat
-    * ls -a
-    * pwd
-    * cp
-    * ...
+    * `cd` 
+    * `cd ~`
+    * `ls -lat`
+    * `ls -a`
+    * `pwd`
+    * `cp`
+    * `...`
 
 Without `ssp`:
 ![image](Try_Command.png)
