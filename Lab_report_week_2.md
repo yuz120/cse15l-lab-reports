@@ -81,6 +81,14 @@ The output:
     * Tip 1: Start from Home directory of your own computer (use command cd)
     * Tip 2: When copying the`(/Users/<user-name>/.ssh/id_rsa)`, remember to change the user-name.
 
+* use commands:
+* $ ssh cs15lsp22zz@ieng6.ucsd.edu
+* <Enter Password>
+* $ mkdir .ssh
+* $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+* ![image](mkdir.jpeg)
+* 
+
 
 
 ### *Part 6*
