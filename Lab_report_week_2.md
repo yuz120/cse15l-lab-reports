@@ -65,7 +65,7 @@ The output:
 ![image](ScdPhoto.png)
 
 * Log into ieng6 with `ssh`, type `ls`. The file should be in your home directory.
-`
+
 ![image](LogInAgain.png)
 `
 * Now try to compile in `@ieng6`
