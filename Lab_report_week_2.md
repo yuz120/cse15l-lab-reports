@@ -2,7 +2,6 @@
                             Yuyang Zhou
                             April 10, 2022
 
-#
 ### *Part 1*
 ### Install Visual Studio Code
 * Go to website [Visual Studio Code](https://code.visualstudio.com/)
@@ -27,13 +26,13 @@ After that, the terminal should look like this:
 ### *Part 3*
 ### Trying Some Command
 * Run some commands by yourself. Compare the output using commands with and without ssh.
-    * cd 
-    * cd ~
-    * ls -lat
-    * ls -a
-    * pwd
-    * cp
-    * ...
+    * `cd` 
+    * `cd ~`
+    * `ls -lat`
+    * `ls -a`
+    * `pwd`
+    * `cp`
+    * `...`
 
 Without `ssp`:
 ![image](Try_Command.png)
