@@ -82,12 +82,11 @@ The output:
     * Tip 2: When copying the`(/Users/<user-name>/.ssh/id_rsa)`, remember to change the user-name.
 
 * use commands:
-* $ ssh cs15lsp22zz@ieng6.ucsd.edu
-* <Enter Password>
-* $ mkdir .ssh
-* $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+* `$ ssh cs15lsp22zz@ieng6.ucsd.edu`
+* `<Enter Password>`
+* `$ mkdir .ssh`, make a directory called ssh
+* `$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`,  make a secure copy of authorized keys from the local to the remote directory.
 * ![image](mkdir.jpeg)
-* 
 
 
 
