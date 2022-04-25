@@ -16,7 +16,7 @@ April 24, 2022
 * testfile2.jpeg
 ![image](ErrorTestfile2.jpeg)
 ![image](Errortestfile2loop.jpeg)
-    * Bug: 
+    * Bug: Cannot exit while loop
     * Symptom: infinite loop
     * Failure-inducing input: extra closing parenthesis in the website link
 * testfile3.jpeg
