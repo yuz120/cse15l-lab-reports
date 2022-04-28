@@ -29,12 +29,13 @@ April 24, 2022
     * Failure-inducing input: extra closing parenthesis in the website link
 * testfile3.jpeg
 ![image](Errortestfile3.jpeg)
-    * Bug: 
+    * Bug: Only search for the brackets and parenthesis, does not check the space
+    between the closing bracket and open parenthesis
     * Symptom: Include an invalid link
-    * Failure-inducing input: an extra space after the closing bracket
+    * Failure-inducing input: two extra space after the closing bracket
 * testfile4.jpeg
 ![image](Errortestfile4.jpeg)
-    * Bug: 
+    * Bug: Does not detect if opening parenthesis is right after the closing bracket.
     * Symptom: infinite loop
     * Failure-inducing input: extra closing bracket after the closing bracket
 
