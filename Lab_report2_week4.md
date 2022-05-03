@@ -7,6 +7,8 @@ April 24, 2022
 * improvement for testfile2.md
 
 ![image](changefile2current.jpeg)
+![image](testfile2_2.png)
+
 * improvement for testfile3.md
 
 ![image](changefile3_2.jpeg)
