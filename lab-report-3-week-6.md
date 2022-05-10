@@ -7,6 +7,10 @@ Yuyang Zhou
 ### SSH Configuration
 ![image](lab3_1.jpeg)
 
+![image](lab1_4.jpeg)
+
+### II. Part Two
+### 
 
 
 
