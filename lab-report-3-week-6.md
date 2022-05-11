@@ -16,7 +16,9 @@ Yuyang Zhou
 
 ### III. Part Three
 ### Copy whole directories with scp -r
-
+![image](lab_report3_part3_1.jpeg)
+![image](lab_report3_part3_2.jpeg)
+![image](lab_report3_part3_3.jpeg)
 
 
 
