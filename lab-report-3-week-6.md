@@ -4,13 +4,17 @@ Yuyang Zhou
 2022.05.08
 
 ### I. Part One
-### SSH Configuration
+### Streamlining ssh Configuration
 ![image](lab3_1.jpeg)
 
 ![image](lab1_4.jpeg)
 
 ### II. Part Two
-### 
+### Setup Github Access from ieng6
+![image]
+![image]
+### III. Part Three
+### Copy whole directories with scp -r
 
 
 
