@@ -11,8 +11,9 @@ Yuyang Zhou
 
 ### II. Part Two
 ### Setup Github Access from ieng6
-![image]
-![image]
+![image](Part2_lab3_1.jpeg)
+![image](Part2_lab3_2.jpeg)
+
 ### III. Part Three
 ### Copy whole directories with scp -r
 
