@@ -66,6 +66,12 @@ Since there are no repositories with the same name in Github (markdown_parser_we
 * Compiling and running tests in the remote repository in ieng6
 ![image](RunningTest.jpeg)
 
+* I have removed the repository and its files recursively through `rm -rf markdown_parser_week6` command
+![image](remove.jpeg)
+* Try another way to copy the repository recursively to remote account ieng6, using the command 
+`scp -r markdown_parser_week6 ieng6:./;ssh ieng6;ls;cd markdown_parser_week6;javac -cp .:lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java;java -cp .:lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`
+* Using semicolon to seperate each command, they together serves as a shortcut that streamlines the process of secure copying, logging into ieng6 account, changing directory into markdown_parser_week6 repository and running the junit tests.
+![image](run-command.jpeg)
 
 
 
