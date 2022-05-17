@@ -11,25 +11,23 @@ Yuyang Zhou
 
 * The config file content looks like this：
 * ![image](Config.jpeg)
-
 * Enter `:q` and press `Enter`.
 
-* ![image](lab1_4.jpeg)
+ ![image](lab1_4.jpeg)
+* Type `ssh ieng6` and log in to the remote ssh account. 
 
 
 
 ### II. Part Two
 ### Setup Github Access from ieng6
 * ![image](Part2_lab3_1.jpeg)
-* The content of the Config file:
-* ![image](Config.jpeg)
 
 * ![image](Part2_lab3_2.jpeg)
 
 * Push a change to Github:
 * I added a comment for the addition test.
 * ![image](AddComment.jpeg)
-* No 
+* ![image](push_origin.jpeg)
 
 
 
