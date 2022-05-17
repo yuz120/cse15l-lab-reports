@@ -43,18 +43,29 @@ Yuyang Zhou
 * Commit the change to github repository
 * ![image](push_origin.jpeg)
 
-
-
+* The link to the commit:
+* [Add a comment message](https://github.com/yuz120/markdown-parser/commit/a30bca5ab42f040645f0f9daa2bd8673271e75fa)
+Since there are no repositories with the same name in Github (markdown_parser_week6), it may be the reason why the change does not show up.However, it is commited to remote repository in ssh account.
 
 ### III. Part Three
 ### Copy whole directories with scp -r
+* Using `scp` command to manually copy the entire directories of files to remote directory is not helpful, since it is error-prone
+* However, copying recursively addresses this issue.
+*  Use the command `cd` to change the directory to markdown-parser-week6 repository in the local computer.
+* `pwd` print the path of current working directory
+* `scp -r markdown_parser_week6 ieng6:./` The command is used to recursively copy the files in markdown_parser_week6 to ieng6 account.
+ 
 ![image](lab_report3_part3_1.jpeg)
 ![image](lab_report3_part3_2.jpeg)
+
+* Then log into `ssh ieng6` again.
 ![image](lab_report3_part3_3.jpeg)
+* `ls` list files in the remote account, there should be a repository called markdown_parser_week6. 
+
 
 * Compiling and running tests in the remote repository in ieng6
 ![image](RunningTest.jpeg)
-* Description:
+
 
 
 
