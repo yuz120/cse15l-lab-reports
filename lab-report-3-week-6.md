@@ -7,7 +7,12 @@ Yuyang Zhou
 ### Streamlining ssh Configuration
 * ![image](lab3_1.jpeg)
 
-* Before, I need to type the complete command `$ ssh cs15lsp22zzz@ieng6.ucsd.edu `.It is quite long. Streamlining ssh configuration could make the command shorter and more convenient to type. First, use command `touch config` to create an empty config file. Then use command `vim config` to add and edit content into the config file. Enter `i` to insert words. 
+* Before, I need to type the complete command `$ ssh cs15lsp22zzz@ieng6.ucsd.edu `.It is quite long. Streamlining ssh configuration could make the command shorter and more convenient to type. First, use command `touch config` to create an empty config file. Then use command `vim config` to add and edit content into the config file. Enter `i` to insert words as followings. 
+
+    `Host ieng6`
+    `HostName ieng6.ucsd.edu`
+    `User cs15lsp22avy`
+    `IdentityFile ~/.ssh/id_rsa`
 
 * The config file content looks like this：
 * ![image](Config.jpeg)
@@ -27,6 +32,7 @@ Yuyang Zhou
 * Push a change to Github:
 * I added a comment for the addition test.
 * ![image](AddComment.jpeg)
+* Commit the change to github repository
 * ![image](push_origin.jpeg)
 
 
@@ -40,6 +46,7 @@ Yuyang Zhou
 
 * Compiling and running tests in the remote repository in ieng6
 ![image](RunningTest.jpeg)
+* Description:
 
 
 
