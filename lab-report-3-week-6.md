@@ -19,15 +19,23 @@ Yuyang Zhou
 * Enter `:q` and press `Enter`.
 
  ![image](lab1_4.jpeg)
-* Type `ssh ieng6` and log in to the remote ssh account. 
+* Type `ssh ieng6` command and log in to the remote ssh account. 
 
 
 
 ### II. Part Two
 ### Setup Github Access from ieng6
+* Use command `ssh-keygen` tog enerate the public/private key pair in local computer
+* Then, the public key is in id_rsa_github.pub
+* Use command `cd .ssh`  to log in ssh repository in the local computer. 
+* Using `ls` to list files in ssh repository. There should be a file named id_rsa_pub
+* Use command `cat id_rsa_pub` (cat means "concatenate") to read data from the file and give the content of id_rsa_pub as output 
+
 * ![image](Part2_lab3_1.jpeg)
 
-* ![image](Part2_lab3_2.jpeg)
+* Paste the link into the github repository yuz120 through the button "SSH and GPG keys". The new SSH key is shown as below:
+
+* ![image](SSHKEY.jpeg)
 
 * Push a change to Github:
 * I added a comment for the addition test.
