@@ -18,10 +18,8 @@
 
 * As I run the testers, at first, the paths are not found. It is because I used the VSCode play button to run the tests.
 * Then I used the terminal to run the tests.
-* The first tester
-![image](st1.png)
-* The second tester
-![image](snippet2T.jpeg)
+* The first and second testers
+![image](st12.jpeg)
 * The third tester
 ![image](snippet3T.jpeg)
 
