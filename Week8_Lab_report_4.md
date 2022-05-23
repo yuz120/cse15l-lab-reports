@@ -16,11 +16,14 @@
 
 * The first and second testers
 ![image](st12.jpeg)
-* Snippet 1 : expect to be no links. 
+* Snippet 1 : expect to be no links
+
 * Snippet 2: expect three links
+*  "a.com","a.com(())", "example.com"
 * The third tester
 ![image](snippet3T.jpeg)
 * Snippet 3: expect three links.
+* "https://www.twitter.com", "https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule", "https://cse.ucsd.edu/"
 
 * As I run the testers, at first, the paths are not found. It is because I used the VSCode play button to run the tests.
 * Then I used the terminal to run the tests.
