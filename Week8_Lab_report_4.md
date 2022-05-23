@@ -13,15 +13,18 @@
 ![image](snippet2.jpeg)
 * Snippet 3
 ![image](snippet3.jpeg)
-* Inside the MarkdownParseTest.java
-![image](add_snippet_tests.jpeg)
+
+* The first and second testers
+![image](st12.jpeg)
+* Snippet 1 : expect to be no links. 
+* Snippet 2: expect three links
+* The third tester
+![image](snippet3T.jpeg)
+* Snippet 3: expect three links.
 
 * As I run the testers, at first, the paths are not found. It is because I used the VSCode play button to run the tests.
 * Then I used the terminal to run the tests.
-* The first and second testers
-![image](st12.jpeg)
-* The third tester
-![image](snippet3T.jpeg)
+![image](reviewfailure.jpeg)
 
 ### Part 2 Tests for markdownParse in my repository.
 * [The link to the repository](https://github.com/yuz120/markdown-parser.git)
