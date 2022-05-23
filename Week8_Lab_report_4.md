@@ -6,12 +6,12 @@
 ### Part 1 Tests for the markdownParse for review
 * I added three test files and three testers in MarkdownParseTest.java according to the snippets.
 * Snippet 1
-![image]
+![image](snippet1.jpeg)
 * Snippet 2
-![image]
+![image](snippet2.jpeg)
 * Snippet 3
-![image]
+![image](snippet3.jpeg)
 * Inside the MarkdownParseTest.java
 ![image](add_snippet_tests.jpeg)
 
-* 
+* As I run the testers, at first, 
