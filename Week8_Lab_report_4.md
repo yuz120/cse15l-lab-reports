@@ -18,6 +18,12 @@
 
 * As I run the testers, at first, the paths are not found. It is because I used the VSCode play button to run the tests.
 * Then I used the terminal to run the tests.
+* The first tester
+![image]()
+* The second tester
+![image]()
+* The third tester
+![image]()
 
 ### Part 2 Tests for markdownParse in my repository.
 * [The link to the repository](https://github.com/yuz120/markdown-parser.git)
