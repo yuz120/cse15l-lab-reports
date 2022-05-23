@@ -19,11 +19,11 @@
 * As I run the testers, at first, the paths are not found. It is because I used the VSCode play button to run the tests.
 * Then I used the terminal to run the tests.
 * The first tester
-![image]()
+![image](snippetT1.tiff)
 * The second tester
-![image]()
+![image](snippet2T.jpeg)
 * The third tester
-![image]()
+![image](snippet3T.jpeg)
 
 ### Part 2 Tests for markdownParse in my repository.
 * [The link to the repository](https://github.com/yuz120/markdown-parser.git)
