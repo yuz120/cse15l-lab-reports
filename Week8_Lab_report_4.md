@@ -25,6 +25,7 @@
 
 ### Part 2 Tests for markdownParse in my repository.
 * [The link to the repository](https://github.com/yuz120/markdown-parser.git)
+* The testers are the same as those in Part 1. 
 * All the testers for snippets did not pass.
 
 
