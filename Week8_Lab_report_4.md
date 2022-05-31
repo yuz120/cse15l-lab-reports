@@ -6,6 +6,11 @@
 ## Part 1 Tests for the markdownParse for review
 * [The link to the repository](https://github.com/jina-leemon/markdown-parser.git)
 
+* Whereas the other group has updated the files in their repository, I sticked to the original version of their repository (which I have cloned to the local computer 2 weeks ago.)
+* Their MarkdownParse.java looks like this:
+![image]()
+![image]()
+
 * I added three test files and three testers in MarkdownParseTest.java according to the snippets.
 * Snippet 1
 ![image](snippet1.jpeg)
@@ -29,18 +34,29 @@
 * Snippet 3: expect three links.
 * "https://www.twitter.com", "https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule", "https://cse.ucsd.edu/"   
 
-    * Although there are line breaks in between the brackets and extra long sentences, the structure of a pair of brackets and a pair of parenthesis is complete. Thus, I think the three links are all valid and should be printed out.
+    * Although there are line breaks in between the brackets and extra-long sentences, the structure of a pair of brackets and a pair of parenthesis is complete. Thus, I think the three links are all valid and should be printed out.
 
 
 * As I run the testers, at first, the paths are not found. It is because I used the VSCode play button to run the tests.
 * Then I used the terminal to run the tests.
 ![image](reviewfailure.jpeg)
-### Why they did not pass the tests? (The bugs)
+* The above is the output of running the tests on the snippets.
+
+### Why didn't the program pass the tests? (The bugs)
 
 * For snippet 1:
     * The markdownParse under review does not check if backsticks exist in between the brackets.
     * It does not check the extra opening bracket in between the brackets.
     * As long as there is a pair of brackets and a pair of parenthesis, the links will be detected, including the invalid links.
+* For snippet 2:
+    * The output turns out index out of bound. The cause is on line 23 in MarkdownParse.java. Since openBracket is equals to 0 (at the first index in snippet 2), when there is no "!" before the the open bracket, 0-1=-1, which is out of bounds. 
+    * The way to debug could be adding a check. 
+        * If (markdown.charAt(openBracket==0){
+            //don't minus one
+        } 
+* For snippet 3:
+    * The output is index out of bound. The bug is on line 23 in MarkdownParse.java, which is the same as for snippet 2. It is because openBracket is at index 0; when it minus 1, index=-1 which is out of bounds.
+    * I recommend deleting the if statement from line 23 to 25.
 
 ## Part 2 Tests for markdownParse in my repository.
 * [The link to the repository](https://github.com/yuz120/markdown-parser.git)
