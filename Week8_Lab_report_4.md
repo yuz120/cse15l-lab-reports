@@ -78,7 +78,10 @@
     * The bug is on line 18 in MarkdownParse.java. closeParen is out of bounds, since the test did not handle the line breaks and extra-long lines.
 
 ### Answer the questions:
-1. Yes, I think there is a small code change that will make my program work for snippet 1 and all related cases that use inline code with backticks. The code change may be between 67-79, adding a check on hidden brackets. It could track the index of opening and closing brackets. If they are within the bound of the existed pair of brackets, then 
+1. Yes, I think there is a small code change (<10 lines) that will make your program work for snippet 1 and all related cases that use inline code with backticks. Add an if statement to check the backticks using indexing and then compare those with the open and close brackets. In this way, the code can detect the backticks and reduce the effects on reading the links.
+2. Yes, I think there is a small code change (<10 lines) that will make my program work for snippet 2 and all related cases that that nest parentheses, brackets, and escaped brackets. The code change may be between 67-79, adding a check on hidden brackets. It could track the index of opening and closing brackets. If they are within the bound of the existed pair of brackets, then "omit" the extra ones. 
+3. No, I don't think there is a small code change(<10 lines) that will make my program work for snippet 3 and all related cases that have newlines in brackets and parentheses. Because the code in MarkdownParse.java are mainly using indexing, whose efficiency is hugely affected by the newlines and extra-long sentences. I think the newlines should be handled throughout the MarkdownParse so that the close paren could be in bounds.
+
 
 
 
