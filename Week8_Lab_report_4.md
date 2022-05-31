@@ -78,7 +78,7 @@
     * The bug is on line 18 in MarkdownParse.java. closeParen is out of bounds, since the test did not handle the line breaks and extra-long lines.
 
 ### Answer the questions:
-1. Yes, I think there is a small code change that will make my program work for snippet 1 and all related cases that use inline code with backticks. The code change may be between 
+1. Yes, I think there is a small code change that will make my program work for snippet 1 and all related cases that use inline code with backticks. The code change may be between 67-79, adding a check on hidden brackets. It could track the index of opening and closing brackets. If they are within the bound of the existed pair of brackets, then 
 
 
 
