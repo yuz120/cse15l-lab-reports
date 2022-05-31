@@ -42,7 +42,7 @@
 ![image](reviewfailure.jpeg)
 * The above is the output of running the tests on the snippets.
 
-### Why didn't the program pass the tests? (The bugs)
+### Why didn't the program pass the tests? (The bugs in the repository under review)
 
 * For snippet 1:
     * The markdownParse under review does not check if backsticks exist in between the brackets.
@@ -62,6 +62,23 @@
 * [The link to the repository](https://github.com/yuz120/markdown-parser.git)
 * The testers are the same as those in Part 1. 
 * All the testers for snippets did not pass.
-![image]()
+
+![image](zijidetest.jpeg)
+
+### Why didn't the program pass the tests? (The bugs in my group's repository)
+* For snippet 1
+    * The reason is similar with that of the repository under review. It does not check if backsticks exist in between the brackets or the extra opening bracket
+   
+* For snippet 2
+    * The test successfully returns two links.
+    * From line 67-79 in MarkdownParse.java, they help to track open parens and matching close parens.
+    * It did not pass the test because the code did not handle the hidden brackets in between the paired brackets.
+* For snippet 3
+    * The output is index out of bounds. 
+    * The bug is on line 18 in MarkdownParse.java. closeParen is out of bounds, since the test did not handle the line breaks and extra-long lines.
+
+### Answer the questions:
+1. Yes, I think there is a small code change that will make my program work for snippet 1 and all related cases that use inline code with backticks. The code change may be between 
+
 
 
