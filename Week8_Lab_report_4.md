@@ -8,8 +8,8 @@
 
 * Whereas the other group has updated the files in their repository, I sticked to the original version of their repository (which I have cloned to the local computer 2 weeks ago.)
 * Their MarkdownParse.java looks like this:
-![image]()
-![image]()
+![image](rep_rev1.jpeg)
+![image](rep_rev2.jpeg)
 
 * I added three test files and three testers in MarkdownParseTest.java according to the snippets.
 * Snippet 1
