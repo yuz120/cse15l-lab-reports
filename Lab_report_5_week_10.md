@@ -32,14 +32,14 @@ The link to 20.md:
         if (index of open bracket =-1 && open parenthesis =-1){
             let "<" be index 0,
             ">" be the last index. Then print out the link within "<" and ">". 
+        }
+### In my repository,
+    ![image](mycode.jpeg)
+    * Add to line 72. 
 
-
-}
-* In my repository,
-![image]()
-* In the given repository,
-![image]()
-
+### In the given repository,
+    ![image](20anotherrepo.jpeg)
+    Add the same if statement at Line 30.
 
 
 * for 483.md
@@ -57,13 +57,22 @@ The link to 483.md:
 * The way to address:
     * Add an if statement to check if the index of closing bracket is index of open bracket+1.
     * If so, then do not print the link.
-    In my repository,
-    ![image](mycode.jpeg)
-    * Add to line 72. 
 
-### In the given repository,
-    ![image](20anotherrepo.jpeg)
-    Add the same if statement at Line 30.
+
+* In my repository,
+![image](add)
+
+
+* In the given repository,
+
+![image](123.jpeg)
+
+Add the above check to between Lines 23 and 24
+
+
+
+    
+
 
 
 
