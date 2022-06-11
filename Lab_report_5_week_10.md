@@ -15,8 +15,23 @@ Yuyang Zhou
 * `$ vimdiff my-markdown-parser/new_results.txt cse15lsp22-markdown-parser/results.txt` Using vimdiff to show the paralleled differences in two files with bash results
 * ![image](0610compare.jpeg)
 * The results are exactly the same. Vimdiff shows all in white color, which suggests there are no differences.
+* I also searched manually and checked there the printed output are the same for the two.
 * Thus, I chose two random tests: 20 and 171. 
 The results: 
+for 20.md
+![image](0611_test20.jpeg)
+
+Both the given MarkdownParse and my MarkdownParse did not print out the link. It is correct since there are no brackets and parenthesis. Codes of the two MarkdownParse files only detect the index of open and closed brackets and parenthesis.
+
+
+
+
+
+
+for 171.md
+
+![image](0611_171.jpeg)
+
 
 
 
