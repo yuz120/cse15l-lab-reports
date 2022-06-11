@@ -14,7 +14,9 @@ Yuyang Zhou
 ## Part2 Compare the two implementations
 * `$ vimdiff my-markdown-parser/new_results.txt cse15lsp22-markdown-parser/results.txt` Using vimdiff to show the paralleled differences in two files with bash results
 * ![image](0610compare.jpeg)
-* 
+* The results are exactly the same. Vimdiff shows all in white color, which suggests there are no differences.
+* Thus, I chose two random tests: 20 and 171. 
+The results: 
 
 
 
