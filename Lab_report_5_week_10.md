@@ -20,7 +20,8 @@ Yuyang Zhou
 The results: 
 for 20.md
 ![image](0611_test20.jpeg)
-
+The link to 20.md:
+[link to 20.md](https://github.com/yuz120/markdown-parser/blob/292a8d15704f95841ccb7c7f3147d80f8b30928c/test-files/20.md)
 Both the given MarkdownParse and my MarkdownParse did not print out the link. It is correct since there are no brackets and parenthesis. Codes of the two MarkdownParse files only detect the index of open and closed brackets and parenthesis.
 
 
@@ -28,9 +29,12 @@ Both the given MarkdownParse and my MarkdownParse did not print out the link. It
 
 
 
-for 171.md
+for 483.md
 
 ![image](0611_171.jpeg)
+
+
+
 
 
 
