@@ -12,8 +12,8 @@ Yuyang Zhou
 * I used `time bash script.sh > results.txt` for the given repository, saving the bash output into results.txt.
 * Likewise, `time bash script.sh > new_results.txt` for my repository, saving into new_results.txt.
 ## Part2 Compare the two implementations
-* `$ vimdiff my-markdown-parser/results.txt cse15lsp22-markdown-parser/results.txt`
-* 
+* `$ vimdiff my-markdown-parser/new_results.txt cse15lsp22-markdown-parser/results.txt` Using vimdiff to show the paralleled differences in two files with bash results
+* ![image](0610compare.jpeg)
 * 
 
 
