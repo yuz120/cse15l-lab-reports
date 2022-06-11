@@ -16,23 +16,30 @@ Yuyang Zhou
 * ![image](0610compare.jpeg)
 * The results are exactly the same. Vimdiff shows all in white color, which suggests there are no differences.
 * I also searched manually and checked there the printed output are the same for the two.
-* Thus, I chose two random tests: 20 and 171. 
+* Thus, I chose two random tests: 20 and 483. 
 The results: 
 for 20.md
 ![image](0611_test20.jpeg)
 The link to 20.md:
 [link to 20.md](https://github.com/yuz120/markdown-parser/blob/292a8d15704f95841ccb7c7f3147d80f8b30928c/test-files/20.md)
-Both the given MarkdownParse and my MarkdownParse did not print out the link. It is correct since there are no brackets and parenthesis. Codes of the two MarkdownParse files only detect the index of open and closed brackets and parenthesis.
+* expected : do not print out the link
+* Both the given MarkdownParse and my MarkdownParse did not print out the link. It is correct since there are no brackets and parenthesis. Codes of the two MarkdownParse files only detect the index of open and closed brackets and parenthesis.
 
 
 
+* for 483.md
 
+![image](0611_483.jpeg)
 
+The link to 483.md:
+[link to 483.md](https://github.com/yuz120/markdown-parser/blob/292a8d15704f95841ccb7c7f3147d80f8b30928c/test-files/483.md)
 
-for 483.md
-
-![image](0611_171.jpeg)
-
+* expected output: print out nothing
+* actual: print out the link 
+* Both MarkdownParse print out the link. Because both detect the pair of parenthesis and the other pair of brackets. However, the brackets contain nothing. It means there is no name of the website. The format of the link is not complete.
+* The way to address:
+    * Add an if statement to check if the index of closing bracket is index of open bracket+1.
+    * If so, then do not print the link.
 
 
 
