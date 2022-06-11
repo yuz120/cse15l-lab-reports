@@ -22,10 +22,23 @@ for 20.md
 ![image](0611_test20.jpeg)
 The link to 20.md:
 [link to 20.md](https://github.com/yuz120/markdown-parser/blob/292a8d15704f95841ccb7c7f3147d80f8b30928c/test-files/20.md)
-* VS preview of 20.md
+* VS Code preview of 20.md
+
 * ![image](20prev.jpeg)
-* expected : do not print out the link
-* Both the given MarkdownParse and my MarkdownParse did not print out the link. It is correct since there are no brackets and parenthesis. Codes of the two MarkdownParse files only detect the index of open and closed brackets and parenthesis.
+
+* expected : print out the link
+* Both the given MarkdownParse and my MarkdownParse did not print out the link. The reason is that the codes of the two MarkdownParse files only detect the index of open and closed brackets and parenthesis.
+* Solution: add the check for "<>", using if statement 
+        if (index of open bracket =-1 && open parenthesis =-1){
+            let "<" be index 0,
+            ">" be the last index. Then print out the link within "<" and ">". 
+
+
+}
+* In my repository,
+![image]()
+* In the given repository,
+![image]()
 
 
 
@@ -44,6 +57,12 @@ The link to 483.md:
 * The way to address:
     * Add an if statement to check if the index of closing bracket is index of open bracket+1.
     * If so, then do not print the link.
+    In my repository,
+    ![image](mycode.jpeg)
+    * Add to line 72. 
+
+### In the given repository,
+    ![image]()
 
 
 
