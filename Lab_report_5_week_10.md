@@ -22,6 +22,8 @@ for 20.md
 ![image](0611_test20.jpeg)
 The link to 20.md:
 [link to 20.md](https://github.com/yuz120/markdown-parser/blob/292a8d15704f95841ccb7c7f3147d80f8b30928c/test-files/20.md)
+* VS preview of 20.md
+* ![image](20prev.jpeg)
 * expected : do not print out the link
 * Both the given MarkdownParse and my MarkdownParse did not print out the link. It is correct since there are no brackets and parenthesis. Codes of the two MarkdownParse files only detect the index of open and closed brackets and parenthesis.
 
@@ -35,6 +37,8 @@ The link to 483.md:
 [link to 483.md](https://github.com/yuz120/markdown-parser/blob/292a8d15704f95841ccb7c7f3147d80f8b30928c/test-files/483.md)
 
 * expected output: print out nothing
+* Preview: 
+![image](483prev.jpeg)
 * actual: print out the link 
 * Both MarkdownParse print out the link. Because both detect the pair of parenthesis and the other pair of brackets. However, the brackets contain nothing. It means there is no name of the website. The format of the link is not complete.
 * The way to address:
