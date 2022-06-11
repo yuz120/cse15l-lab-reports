@@ -62,7 +62,8 @@ The link to 483.md:
     * Add to line 72. 
 
 ### In the given repository,
-    ![image]()
+    ![image](20anotherrepo.jpeg)
+    Add the same if statement at Line 30.
 
 
 
